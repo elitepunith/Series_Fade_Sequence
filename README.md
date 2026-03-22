@@ -6,11 +6,9 @@ A self-running 3-LED light effect built in Falstad Circuit Simulator. All 3 LEDs
 
 ## Demo
 
- gallary![assets/gif-of-faslad.gif]
+![Demo](assets/gif-of-falstad.gif)
 
-
-**Live demo:** [https://is.gd/gSgEcT]
-
+**Live demo:** [Click to open in Falstad](https://is.gd/gSgEcT)
 
 ---
 
@@ -23,8 +21,8 @@ When the switch opens, each capacitor slowly discharges through its LED — crea
 | LED | Timing R | Capacitor | Fade time |
 |-----|----------|-----------|-----------|
 | LED 1 | 1kΩ | 100mF | Fast (~0.1s) |
-| LED 2 | 1kΩ | 1mF | Medium (~1s) |
-| LED 3 | 1kΩ | 10mF | Slowest (~5s) |
+| LED 2 | 10kΩ | 1mF | Medium (~1s) |
+| LED 3 | 47kΩ | 10mF | Slowest (~5s) |
 
 The fade time is controlled by the RC time constant: `time ≈ R × C`. Bigger R or C = longer glow. Each LED also has a 470Ω series resistor to protect it from too much current.
 
