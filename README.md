@@ -6,7 +6,7 @@ A self-running 3-LED light effect built in Falstad Circuit Simulator. All 3 LEDs
 
 ## Demo
 
- **assets/gif-of-faslad.gif**
+ gallary![assets/gif-of-faslad.gif]
 
 
 **Live demo:** [https://is.gd/gSgEcT]
