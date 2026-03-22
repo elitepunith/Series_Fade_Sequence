@@ -38,3 +38,9 @@ The fade time is controlled by the RC time constant: `time ≈ R × C`. Bigger R
 - 100mF, 1mF, 10mF capacitors (timing)
 
 ---
+
+## Circuit
+
+![Circuit schematic](assets/circuit.png)
+
+---
